@@ -1,0 +1,105 @@
+# Criação de um dicionário de dados
+
+df_dict = pd.DataFrame([
+    {
+        "variavel": "Instant",
+        "descricao": "Índice de registro",
+        "tipo": "Quantitativa",
+        "subtipo": "Discreta",
+        "resposta": False
+    },{
+        "variavel": "Dteday",
+        "descricao": "Data",
+        "tipo": "Qualitativa",
+        "subtipo": "Ordinal",
+        "resposta": False
+    },{
+        "variavel": "Season",
+        "descricao": "Estação (1:inverno, 2:primavera, 3:verão, 4:outono)",
+        "tipo": "Qualitativa",
+        "subtipo": "Nominal",
+        "resposta": False
+    },{
+        "variavel": "Yr",
+        "descricao": "Ano",
+        "tipo": "Qualitativa",
+        "subtipo": "Ordinal",
+        "resposta": False
+    },{
+        "variavel": "Mnth",
+        "descricao": "Mês",
+        "tipo": "Qualitativa",
+        "subtipo": "Ordinal",
+        "resposta": False
+    },{
+        "variavel": "Holiday",
+        "descricao": "Se é feriado (1: positivo, 0: negativo)",
+        "tipo": "Qualitativa",
+        "subtipo": "Nominal",
+        "resposta": False
+    },{
+        "variavel": "Weekday",
+        "descricao": "Dia da semana",
+        "tipo": "Qualitativa",
+        "subtipo": "Ordinal",
+        "resposta": False
+    },{
+        "variavel": "Workingday",
+        "descricao": "Se é dia útil (1: positivo, 0: negativo)",
+        "tipo": "Qualitativa",
+        "subtipo": "Nominal",
+        "resposta": False
+    },{
+        "variavel": "Weathersit",
+        "descricao": "1: Céu limpo, 2: Nublado, 3: Chuva fraca, 4: Chuva forte",
+        "tipo": "Qualitativa",
+        "subtipo": "Nominal",
+        "resposta": False
+    },{
+        "variavel": "Temp",
+        "descricao": "Temperatura normalizada em Celsius. Os valores são derivados via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (somente na escala horária)",
+        "tipo": "Quantitativa",
+        "subtipo": "Contínua",
+        "resposta": False
+    },{
+        "variavel": "Atemp",
+        "descricao": "Temperatura normalizada em Celsius.",
+        "tipo": "Quantitativa",
+        "subtipo": "Contínua",
+        "resposta": False
+    },{
+        "variavel": "Hum",
+        "descricao": "Umidade normalizada. Os valores são divididos por 100 (máx.)",
+        "tipo": "Quantitativa",
+        "subtipo": "Contínua",
+        "resposta": False
+    },{
+        "variavel": "Windspeed",
+        "descricao": "Velocidade do vento normalizada.",
+        "tipo": "Quantitativa",
+        "subtipo": "Contínua",
+        "resposta": False
+    },{
+        "variavel": "Casual",
+        "descricao": "Contagem de usuários casuais",
+        "tipo": "Quantitativa",
+        "subtipo": "Discreta",
+        "resposta": True
+    },{
+        "variavel": "Registered",
+        "descricao": "Contagem de usuários registrados",
+        "tipo": "Quantitativa",
+        "subtipo": "Discreta",
+        "resposta": True
+    },{
+        "variavel": "Cnt",
+        "descricao": "Contagem do total de bicicletas alugadas, incluindo casuais e registradas",
+        "tipo": "Quantitativa",
+        "subtipo": "Discreta",
+        "resposta": True
+    }
+])
+
+df_dict
+
+df_dict.to_csv('/content/sample_data/dicionario_dados.csv', index=False)

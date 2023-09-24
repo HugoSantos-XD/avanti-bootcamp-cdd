@@ -1,0 +1,9 @@
+variavel,descricao,tipo,subtipo,resposta
+State-gov,"Modelo de emprego o atual : estadual, empreendor, trabalho voluntário",,,False
+Bachelors,Nivel de estudo,,,False
+Never-married,Status Civil,,,False
+Adm-clerical,Profissão exercida,,,False
+Not-in-family,Possui familia,,,False
+White,Cor da sua raça,,,False
+Male,Genero sexual,,,True
+United-States,Pais onde mora ,,,True
