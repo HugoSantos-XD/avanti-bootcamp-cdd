@@ -1,6 +1,6 @@
-# <Título do projeto>
+# <Atividades de Ciência de Dados da Atlantico Avanti>
 
-Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
+Atividades desenvolvidas no Bootcamp de Ciência de Dados da Atlântico Avanti, principais conteúdos abordados nas atividades: Python revisão, Estatistica Descritiva e Visualização de dados, projeto tem como finalidade incentivar e desenvolver habilidades na área de Ciência de Dados.
 
 ## Desenvolvedores
  - [Nome do desenvolvedor #1](url-do-github-do-desenvolvedor-#1)
